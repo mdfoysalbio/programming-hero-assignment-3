@@ -22,6 +22,18 @@
     }
   </script>
 
+  <!-- font-familly  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<style>
+    .manrope{
+        font-family: "Manrope", sans-serif;
+    }
+</style>
+
 
 <style>
  
@@ -34,7 +46,7 @@
 
 
 </head>
-<body>
+<body class="manrope">
 
 
 <!-- header start here  -->
@@ -44,10 +56,10 @@
 
         <nav>
 
-            <div class="navbar justify-between lg:justify-between">
+            <div class="navbar justify-between ">
 
 
-                <div class=" gap-2">
+                <div class=" gap-2 ">
                     <button class="-rotate-45 bg-[#ABEF5F] items-center h-8 w-8 rounded-full"><i class="fa-solid fa-arrow-right-long"></i></button>
                     <a class="cursor-pointer text-[28px] lg:text-[32px] font-extrabold">Rinterio</a>
                   </div>
@@ -110,6 +122,20 @@
         </nav>
     </header>
 <!-- header end here  -->
+
+<!-- banner start here  -->
+    <section class="mx-[5%] mb-5 lg:mx-[8%] lg:mb-20">
+        <img src="images/banner.png" alt="" class="mx-auto max-w-[70%] lg:max-w-[100%]">
+        <h1 class="text-[28px] lg:text-[64px] font-black text-center mb-3 lg:mb-8 text-[#212121] leading-tight	">A barn house of this design has a striking appearance</h1>
+        <p class="text-center text-[#494949] text-sm lg:text-base font-medium mb-3 lg:mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br class="hidden lg:block">accents, and large windows that flood the space with natural light.</p>
+
+        <button class="flex gap-1 bg-lime-200 lg:mx-auto	 text-[#212121] rounded-full w-[100%] lg:w-[15%] py-3 justify-center ">
+            <p class="font-black text-xl ">View Details</p>
+            <div class=" grid -rotate-45 bg-[#ABEF5F] text-black items-center h-7 w-7 rounded-full"><i class="fa-solid fa-arrow-right-long"></i></div>
+        </button>
+    </section>
+
+<!-- banner end here  -->
     
 </body>
 </html>
