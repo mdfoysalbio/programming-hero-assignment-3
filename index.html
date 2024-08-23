@@ -16,7 +16,11 @@
         extend: {
           colors: {
             clifford: '#da373d',
-          }
+            shadow: 'rgb(248, 246, 243)'
+          },
+          backgroundImage: {
+            bgimage:"url('./images/bg.jpg')"
+          },
         }
       }
     }
@@ -32,10 +36,8 @@
     .manrope{
         font-family: "Manrope", sans-serif;
     }
+
 </style>
-
-
-
 
 
 <!-- font awesome kit  -->
@@ -145,7 +147,7 @@
           <div class=" text-center lg:text-start space-y-4 lg:space-y-6">
           
             <button class="mx-auto lg:mx-0  btn w-auto rounded-full font-bold text-base bg-[#FFFFFF] text-[#494949]  "><i class="fa-solid fa-arrow-right-long"></i> About US</button>
-            <h1 class="font-black leading-tight text-[#212121] text-[24px] lg:text-[40px]  ">We design thoughtful, <br>liveable spaces</h1>
+            <h1 class="font-extrabold leading-tight text-[#212121] text-[24px] lg:text-[40px]  ">We design thoughtful, <br>liveable spaces</h1>
             <p class="font-medium text-sm lg:text-base text-[#494949]   ">We design thoughtful, livable spaces that balance functionality and style, creating homes that are both beautiful and comfortable for everyday living.</p>
           </div>
 
@@ -175,7 +177,7 @@
 
         <!-- img section start here  -->
         <div class="h-auto lg:w-[47%] mt-7 lg:mt-0">
-          <img src="images/Rectangle.png" alt="" class="h-[100%] lg:w-[100%] ">
+          <img src="images/Rectangle.png" alt="" class="h-[100%] lg:w-[100%] object-cover ">
         </div>
 
         
@@ -382,6 +384,46 @@
     </div>
   </section>
  <!-- question and answer section end here  -->
+
+
+ <!-- discuss section start here  -->
+  <section class="bg-bgimage bg-no-repeat bg-cover">
+
+    <div class="w-full h-full bg-shadow bg-opacity-60 ">
+      <div class="px-[5%] lg:py-24 py-8 mt-1 lg:px-[10%]">
+        <div class=" text-center  space-y-4 lg:space-y-6">
+          
+          <button class="mx-auto lg:mx-0  btn w-auto rounded-full font-bold text-base bg-lime-100 	 text-[#494949]  "><i class="fa-solid fa-arrow-right-long"></i> Let’s Connect</button>
+          <h1 class="font-black leading-tight text-[#212121] text-[24px] lg:text-[40px]  ">Let’s Discuss Next Project</h1>
+          <p class="font-medium text-sm lg:text-base text-[#494949] ">Let's discuss your vision and ideas to create a house design that perfectly reflects your style and meets your needs, <br class="hidden lg:block">ensuring a personalized and thoughtful approach.</p>
+        </div>
+    
+    
+        <div class="grid lg:grid-cols-2 gap-3 lg:gap-6 lg:mt-11 mt-8">
+          <input type="text" placeholder="First Name*" class="w-full rounded-full px-4 py-2 lg:px-6 lg:py-4">
+          <input type="text" placeholder="Last Name*" class="w-full rounded-full px-4 py-2 lg:px-6 lg:py-4">
+          <input type="text" placeholder="Phone Number*" class="w-full rounded-full px-4 py-2 lg:px-6 lg:py-4">
+          <input type="text" placeholder="Email Number*" class="w-full rounded-full px-4 py-2 lg:px-6 lg:py-4">
+        </div>
+    
+        <div class=" mt-3 lg:mt-6">
+          <textarea name="" id=""placeholder="Write your message here" class="w-full h-[200px] rounded-[32px] px-4 py-2 lg:px-6 lg:py-4"></textarea>
+          
+        </div>
+    
+    
+        <div class=" mt-3 lg:mt-6">
+          <button class="flex gap-3 bg-[#ABEF5F] text-black rounded-full px-5 py-3 w-full justify-center">
+              <p class="font-extrabold text-xl">Send Mail</p>
+              <div class=" grid -rotate-45 bg-black text-white items-center h-7 w-7 rounded-full"><i class="fa-solid fa-arrow-right-long"></i></div>
+          </button>
+      </div>
+      </div>
+    </div>
+
+      
+  </section>
+  <!-- discuss section end here  -->
 
  
     
